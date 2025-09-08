@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "21beb8f8e11b4fef2adc33cb825a92a66bd06bae",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-08T13:35:15.000Z",
       "message": "prueba dos a cero",
-      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/21beb8f8e11b4fef2adc33cb825a92a66bd06bae"
     },
     "stats": {
       "total": 9,
@@ -167,6 +167,25 @@
     },
     "coverage": 90,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-08T13:37:34.000Z",
+      "message": "prueba jugador anota 3 veces",
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2025-09-08"
+    },
+    "coverage": 91.67,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
