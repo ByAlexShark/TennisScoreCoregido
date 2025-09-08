@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e79ba0a11266a3aa2d4fc325fff8f142834dcd87",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-08T13:41:09.000Z",
       "message": "arreglo 1ras pruebas caso uno jugador 2 anota un punto",
-      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/e79ba0a11266a3aa2d4fc325fff8f142834dcd87"
     },
     "stats": {
       "total": 27,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-08T13:43:41.000Z",
+      "message": "2da prueba jugador dos anota dos puntos",
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
