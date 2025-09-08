@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "172162fd98e7625f4bb599766342c18bde9e3c22",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-08T13:32:11.000Z",
       "message": "prueba 0 a 0",
-      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/172162fd98e7625f4bb599766342c18bde9e3c22"
     },
     "stats": {
       "total": 2202,
@@ -129,6 +129,25 @@
     },
     "coverage": 60,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-08T13:33:29.000Z",
+      "message": "prueba uno a cero",
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-08"
+    },
+    "coverage": 80,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
