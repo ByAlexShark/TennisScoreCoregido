@@ -1,4 +1,3 @@
-
 import { TennisScorer } from "./tennisScorer.js";
 
 describe("TennisScorer", () => {
@@ -84,4 +83,22 @@ describe("TennisScorer", () => {
         expect(score.showScore()).toEqual("Advantage for 2");
     });
     
+    it("jugador 1 gana el game", () => {
+        const score = new TennisScorer();
+        score.player1Scores();
+        score.player1Scores();
+        score.player1Scores();
+        score.player1Scores();
+        expect(score.showScore()).toEqual("Game for 1");
+    });
+
+    it("jugador 2 gana el game", () => {
+        const score = new TennisScorer();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        expect(score.showScore()).toEqual("Game for 2");
+    });
+
 });
