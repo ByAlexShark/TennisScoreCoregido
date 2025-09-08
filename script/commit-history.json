@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e2ed8f734d3d8d55948a6afae48fcf23b82a5893",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-08T13:52:11.000Z",
       "message": "prueba de desempate",
-      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/e2ed8f734d3d8d55948a6afae48fcf23b82a5893"
     },
     "stats": {
       "total": 18,
@@ -281,6 +281,25 @@
     },
     "coverage": 88.89,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-08T13:54:20.000Z",
+      "message": "Prueba de desempate en caso de empate gana player 2",
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 24,
+      "deletions": 9,
+      "date": "2025-09-08"
+    },
+    "coverage": 96.3,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

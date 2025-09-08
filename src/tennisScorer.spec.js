@@ -1,3 +1,4 @@
+
 import { TennisScorer } from "./tennisScorer.js";
 
 describe("TennisScorer", () => {
@@ -70,4 +71,17 @@ describe("TennisScorer", () => {
         score.player1Scores(); 
         expect(score.showScore()).toEqual("Advantage for 1");
     });
+
+    it("estando en Deuce, jugador 2 anota -> Advantage for 2", () => {
+        const score = new TennisScorer();
+        score.player1Scores();
+        score.player1Scores();
+        score.player1Scores();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        expect(score.showScore()).toEqual("Advantage for 2");
+    });
+    
 });
