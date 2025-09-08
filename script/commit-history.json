@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8be9de9a0a264193eeafa25bab667606be3f822",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-08T13:56:45.000Z",
       "message": "pruebas definiendo ganador",
-      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/e8be9de9a0a264193eeafa25bab667606be3f822"
     },
     "stats": {
       "total": 28,
       "additions": 26,
       "deletions": 2,
+      "date": "2025-09-08"
+    },
+    "coverage": 96.55,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-08T13:59:09.000Z",
+      "message": "Implemento del index",
+      "url": "https://github.com/ByAlexShark/TennisScoreCoregido/commit/HEAD"
+    },
+    "stats": {
+      "total": 58,
+      "additions": 39,
+      "deletions": 19,
       "date": "2025-09-08"
     },
     "coverage": 96.55,
