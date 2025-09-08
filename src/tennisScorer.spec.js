@@ -6,6 +6,7 @@ describe("TennisScorer", () => {
         const result = score.showScore(); 
         expect(result).toEqual("Love - Love");
     });
+
     it("player 1 anota un punto y el jugador no anota, 1-0", () => {
          const score = new TennisScorer(); 
         score.player1Scores();            
@@ -60,4 +61,13 @@ describe("TennisScorer", () => {
         expect(score.showScore()).toEqual("Deuce");
     });
 
+    it("estando en Deuce, jugador 1 anota -> Advantage for 1", () => {
+        const score = new TennisScorer();
+        for (let i = 0; i < 3; i++) {
+            score.player1Scores();
+            score.player2Scores();
+        }
+        score.player1Scores(); 
+        expect(score.showScore()).toEqual("Advantage for 1");
+    });
 });
